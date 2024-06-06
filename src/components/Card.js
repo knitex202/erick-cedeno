@@ -6,7 +6,7 @@ function Card({info}) {
     const cards = info.map((img) => {
        return( 
         <div className="flex-shrink-0  h-96 lg:min-h-[900px]">
-            <img className="h-full w-full" src={img.image} alt="" /> 
+            <img className="h-full" src={img.image} alt="" /> 
         </div>
        )
     })
