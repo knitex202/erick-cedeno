@@ -6,8 +6,8 @@ import { data } from "../data";
 function Landing() {
   return (
     <div className="flex flex-col w-full h-full">
-      <div className="flex flex-col lg:flex lg:flex-row lg:justify-center mt-8 ml-12 items-center">
-        <div className="">
+      <div className="flex flex-col w-full lg:flex lg:flex-row lg:justify-center mt-8 items-center">
+        <div>
           <h1 className=" inline-block text-6xl ">
             Erick <span className="text-5xl font-thin">Cedeño</span>
           </h1>
@@ -18,7 +18,7 @@ function Landing() {
           </a>
         </div>
       </div>
-      <div className=" my-16 flex w-full">
+      <div className=" my-12 flex w-full">
         <div className="flex w-full relative overflow-x-scroll">
           <Card info={data} />
         </div>

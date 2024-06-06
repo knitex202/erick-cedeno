@@ -558,6 +558,16 @@ video {
   margin-bottom: 4rem;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .ml-12 {
   margin-left: 3rem;
 }
