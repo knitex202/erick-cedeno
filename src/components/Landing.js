@@ -6,18 +6,20 @@ import { data } from "../data";
 function Landing() {
   return (
     <div className="w-screen h-screen">
-      <div className="flex">
-        <h1 className="ml-12 text-6xl">
-          Erick <span className="text-3xl font-thin">Cedeno -</span>
+      <div className="flex mt-8 ml-12 items-end">
+        <div className="flex">
+        <h1 className=" inline-block text-6xl ">
+          Erick <span className="text-5xl font-thin">Cedeño -</span>
         </h1>
-        <div className="flex ml-6 items-end">
+        </div>
+        <div className="flex ml-6">
           <a href="https://www.instagram.com/mr.erickcedeno/" target="blank">
-            <img className="h-16 w-16 " src={instagram} />
+            <img className="h-16 w-16" src={instagram} />
           </a>
         </div>
       </div>
-      <div className="flex my-16 ">
-        <div className="overflow-x-scroll">
+      <div className=" my-16 flex w-full">
+        <div className="flex w-full relative overflow-x-scroll">
         <Card info={data} />
         </div>
       </div>

@@ -4,7 +4,7 @@ import Landing from "./components/Landing";
 
 function App() {
   return (
-    <div className="w-screen h-screen px-8 overflow-hidden">
+    <div className="w-screen h-screen bg-gray-200 overflow-hidden">
       <Landing/>
     </div>
   );

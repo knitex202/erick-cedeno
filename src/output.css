@@ -545,9 +545,23 @@ video {
   --tw-contain-style:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .ml-12 {
@@ -556,6 +570,22 @@ video {
 
 .ml-6 {
   margin-left: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -578,6 +608,10 @@ video {
   height: 100vh;
 }
 
+.h-\[900px\] {
+  height: 900px;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -590,51 +624,75 @@ video {
   width: 100vw;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .items-end {
   align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-evenly {
   justify-content: space-evenly;
 }
 
+.self-end {
+  align-self: flex-end;
+}
+
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
 }
 
 .overflow-x-scroll {
   overflow-x: scroll;
 }
 
-.overflow-y-scroll {
-  overflow-y: scroll;
-}
-
-.bg-gray-600 {
+.bg-slate-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
-.object-cover {
-  object-fit: cover;
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.align-baseline {
+  vertical-align: baseline;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-text-top {
+  vertical-align: text-top;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -645,6 +703,16 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
