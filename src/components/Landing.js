@@ -5,7 +5,7 @@ import { data } from "../data";
 
 function Landing() {
   return (
-    <div className="w-screen h-screen">
+    <div className="w-full h-full">
       <div className="flex flex-col lg:flex lg:flex-row lg:justify-center mt-8 ml-12 items-center">
         <div className="">
         <h1 className=" inline-block text-6xl ">
@@ -23,7 +23,7 @@ function Landing() {
         <Card info={data} />
         </div>
       </div>
-      <div className="flex w-full justify-evenly text-sm lg:text-lg text-gray-600">
+      <div className="flex w-full justify-evenly text-xs lg:text-lg text-gray-600">
         <div>
           <p>
             HEIGHT: <span className="font-bold text-black">5'10" / 178 cm</span>
