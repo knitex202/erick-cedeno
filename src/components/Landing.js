@@ -6,15 +6,15 @@ import { data } from "../data";
 function Landing() {
   return (
     <div className="w-screen h-screen">
-      <div className="flex mt-8 ml-12 items-end">
-        <div className="flex">
+      <div className="flex flex-col lg:flex lg:flex-row lg:justify-center mt-8 ml-12 items-center">
+        <div className="">
         <h1 className=" inline-block text-6xl ">
-          Erick <span className="text-5xl font-thin">Cedeño -</span>
+          Erick <span className="text-5xl font-thin">Cedeño</span>
         </h1>
         </div>
-        <div className="flex ml-6">
+        <div className="relative top-1 ml-6">
           <a href="https://www.instagram.com/mr.erickcedeno/" target="blank">
-            <img className="h-16 w-16" src={instagram} />
+            <img className="h-16 w-16 " src={instagram} />
           </a>
         </div>
       </div>
@@ -23,7 +23,7 @@ function Landing() {
         <Card info={data} />
         </div>
       </div>
-      <div className="flex w-full justify-evenly text-lg text-gray-600">
+      <div className="flex w-full justify-evenly text-sm lg:text-lg text-gray-600">
         <div>
           <p>
             HEIGHT: <span className="font-bold text-black">5'10" / 178 cm</span>
