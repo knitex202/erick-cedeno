@@ -23,7 +23,7 @@ function Landing() {
           <Card info={data} />
         </div>
       </div>
-      <div className="flex flex-row w-2/3 self-center mb-8">
+      <div className="flex flex-row w-2/3 self-center ">
         <div className="grid grid-cols-2 lg:grid-cols-4 w-full text-xs lg:text-lg text-gray-600">
           <div>
             <p>
@@ -59,9 +59,9 @@ function Landing() {
               EYES: <span className="font-bold text-black">Brown</span>{" "}
             </p>
           </div>
+          <br/>
         </div>
       </div>
-      <br/>
     </div>
   );
 }
