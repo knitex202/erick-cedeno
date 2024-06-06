@@ -568,6 +568,11 @@ video {
   margin-bottom: 3rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .ml-12 {
   margin-left: 3rem;
 }

@@ -18,7 +18,7 @@ function Landing() {
           </a>
         </div>
       </div>
-      <div className=" my-12 flex w-full">
+      <div className=" my-8 flex w-full">
         <div className="flex w-full relative overflow-x-scroll">
           <Card info={data} />
         </div>
