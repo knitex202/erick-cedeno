@@ -566,14 +566,6 @@ video {
   margin-top: 2rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -653,10 +645,6 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .text-5xl {
