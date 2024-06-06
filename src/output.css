@@ -669,6 +669,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .overflow-x-scroll {
   overflow-x: scroll;
 }
@@ -711,9 +715,31 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:w-screen {
+    width: 100vw;
+  }
+
+  .md\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:min-h-\[900px\] {
